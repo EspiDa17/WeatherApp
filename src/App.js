@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Weather from "./Weather ";
-import styles from './App.module.css'
+import Weather from "./Components/Weather/Weather";
+import styles from './App.css'
 
 const App = () => {
 
