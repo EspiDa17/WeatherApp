@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Weather from "./Components/Weather/Weather";
-import styles from './App.css'
+import Weather from "../Weather/Weather";
+import styles from './App.module.css'
 
 const App = () => {
 
@@ -56,33 +56,3 @@ const App = () => {
 };
 
 export default App;
-
-
-
-
-
-// import logo from './logo.svg';
-// import './App.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
