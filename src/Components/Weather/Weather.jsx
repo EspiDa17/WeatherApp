@@ -8,7 +8,7 @@ const Weather = (props) => {
   useEffect(() => {
     const fetchData = async () => {
       const API_KEY = 'e99d57bf93b9887bbc4342f795766e94';
-      const URL = 'http://api.openweathermap.org/data/2.5/weather';
+      const URL = 'https://api.openweathermap.org/data/2.5/weather';
       const city = props.city;
 
       try {
