@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Fuente';
+    src: url('/public/fonts/MilkyVintage-Regular.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.contWeather {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10%;
+}
+
+
+.infoWeather {
+    font-family: 'Fuente';
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    text-align: center;
+}
+
+.h2 {
+    font-size: 6ch;
+    color: white;
+}
+
+.p {
+    font-size: 4ch;
+    color: white;
+}
+
+.img {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    color: black;
+}
